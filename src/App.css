@@ -7,7 +7,6 @@
 .logo {
   font-size: 24px;
   line-height: 29px;
-  color: var(--bold-color);
 }
 
 .navbar .wrapper {
@@ -44,4 +43,58 @@
   height: 0;
   overflow: hidden;
   visibility: hidden;
+}
+
+/* Header */
+.header .wrapper > img {
+  width: 100%;
+  object-fit: none;
+}
+
+.promo-1 > h1,
+.promo-2 > h1 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.promo-1 > img,
+.promo-2 > img {
+  width: 55px;
+  height: 12px;
+  margin-top: 4px;
+}
+
+.header .wrapper {
+  /* position: relative; */
+}
+
+.promo-1:hover,
+.promo-2:hover {
+  cursor: pointer;
+}
+
+.promos {
+  position: absolute;
+  top: calc(116px + 73px);
+  right: 0;
+}
+
+.promo-1 {
+  /* position: relative; */
+  /* left: -79px; */
+  width: 149px;
+  height: 204px;
+  background: #9e98dc;
+  padding: 0 20px;
+  padding-top: 102px;
+  padding-bottom: 36px;
+}
+
+.promo-2 {
+  /* position: relative; */
+  /* top: 76px; */
+  width: 137px;
+  height: 273px;
+  background: #ff8fe6;
+  padding: 149px 47px 36px 21px;
 }
