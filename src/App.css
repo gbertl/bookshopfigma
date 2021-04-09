@@ -1,0 +1,47 @@
+.wrapper {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.logo {
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--bold-color);
+}
+
+.navbar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 116px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  gap: 40px;
+}
+
+.navbar nav a {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.navbar nav a.active,
+.navbar nav a:hover {
+  font-weight: 900;
+  color: var(--bold-color);
+}
+
+.navbar a::after {
+  display: block;
+  content: attr(data-text);
+  font-weight: 900;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

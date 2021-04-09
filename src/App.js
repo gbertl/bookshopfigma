@@ -8,20 +8,28 @@ function App() {
     <div className="App">
       <div className="navbar">
         <div class="wrapper">
-          <h1>Bookshop</h1>
+          <h1 class="logo">Bookshop</h1>
           <nav>
             <ul>
               <li>
-                <a href="#">BOOKS</a>
+                <a href="#" data-text="Books" className="active">
+                  Books
+                </a>
               </li>
               <li>
-                <a href="#">AUDIOBOOKS</a>
+                <a href="#" data-text="Audiobooks">
+                  Audiobooks
+                </a>
               </li>
               <li>
-                <a href="#">STATIONERY & GIFTS</a>
+                <a href="#" data-text="Stationery & Gifts">
+                  Stationery & Gifts
+                </a>
               </li>
               <li>
-                <a href="#">BLOG</a>
+                <a href="#" data-text="Blog">
+                  Blog
+                </a>
               </li>
             </ul>
           </nav>
